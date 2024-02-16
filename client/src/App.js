@@ -1,11 +1,16 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Navigate} from"react-router-dom";
+import "./App.css";
 
-import './App.css';
+// import { Egate } from "./Landing_Page/Egate";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      
-    </div>
+    <Router>
+      <Routes>
+      {/* <Route path="/" element={<Egate />} /> */}
+      </Routes>
+    </Router>
   );
 }
 

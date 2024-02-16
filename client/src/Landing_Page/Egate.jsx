@@ -8,7 +8,7 @@ import './styles/Landing_Page_CSS/Egate.css'
 import Exam_Explore from '../components/ug_homepage/components/ExploreExam/Exam_Explore';
 import { element } from 'prop-types';
 import { Pg_exploreExam } from '../components/PG/PG_homePage/Pg_Explor_Exam/Pg_exploreExam';
-import './Landingpage-footer.css'
+import './styles/Landing_Page_CSS/Landingpage-footer.css'
 
 
 export const Egate = () => {
