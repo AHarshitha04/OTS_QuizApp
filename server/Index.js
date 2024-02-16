@@ -27,12 +27,19 @@ app.use("/ExamCreation", ExamCreation);
 
 const CoureseCreation = require("./OTS_Quiz_Admin/CoureseCreation");
 app.use("/CoureseCreation", CoureseCreation);
-const InstructionCreation = require("./OTS_Quiz_Admin/InstructionCreation");
+
+const InstructionCreation = require('./OTS_Quiz_Admin/InstructionCreation')
 app.use("/InstructionCreation", InstructionCreation);
 
-// app.use("/TestCreation", TestCreation);
-// app.use("/DocumentUpload", DocumentUpload);
-// app.use("/ImageUpload", ImeageUpload);
+
+const TestCreation = require('./OTS_Quiz_Admin/TestCreation')
+app.use("/TestCreation", TestCreation);
+
+const DocumentUpload =require('./OTS_Quiz_Admin/DocumentUpload')
+app.use("/DocumentUpload", DocumentUpload);
+
+const ImageUpload =require('./OTS_Quiz_Admin/ImageUpload')
+app.use("/ImageUpload", ImageUpload);
  
 //_______________________________END__________________________________
 
