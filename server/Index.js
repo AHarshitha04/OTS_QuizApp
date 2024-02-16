@@ -27,46 +27,43 @@ app.use("/ExamCreation", ExamCreation);
 
 const CoureseCreation = require("./OTS_Quiz_Admin/CoureseCreation");
 app.use("/CoureseCreation", CoureseCreation);
+const InstructionCreation = require("./OTS_Quiz_Admin/InstructionCreation");
 app.use("/InstructionCreation", InstructionCreation);
-app.use("/TestCreation", TestCreation);
-app.use("/DocumentUpload", DocumentUpload);
-app.use("/ImageUpload", ImeageUpload);
 
+// app.use("/TestCreation", TestCreation);
+// app.use("/DocumentUpload", DocumentUpload);
+// app.use("/ImageUpload", ImeageUpload);
+ 
 //_______________________________END__________________________________
 
+//-----------------------------------------------ughomepage_banner_login_START--------------------------------------------------------------//
 
+const ughomepage_banner_login = require("./Website_Admin/ughomepage_banner_login");
+app.use("/ughomepage_banner_login", ughomepage_banner_login);
 
-
-
-
-
+//-----------------------------------------------ughomepage_banner_login_END--------------------------------------------------------------//
 
 //-----------------------------------------------OTS_QUIZ_APP_START--------------------------------------------------------------//
 
 //================OTS_QUIZAPP_IMPORTS_START=================
-const ExamPage =require('./OTS_QuizApp/ExamPage')
-const CoursePage = require('./OTS_QuizApp/CoursePage')
-const TestPage =require('./OTS_QuizApp/TestPage')
-const InstructionPage = require('./OTS_QuizApp/InstructionPage')
-const QuizPage =require('./OTS_QuizApp/QuizPage')
-const TestResultPage = require('./OTS_QuizApp/TestResultPage')
+const ExamPage = require("./OTS_QuizApp/ExamPage");
+const CoursePage = require("./OTS_QuizApp/CoursePage");
+const TestPage = require("./OTS_QuizApp/TestPage");
+const InstructionPage = require("./OTS_QuizApp/InstructionPage");
+const QuizPage = require("./OTS_QuizApp/QuizPage");
+const TestResultPage = require("./OTS_QuizApp/TestResultPage");
 //================OTS_QUIZAPP_IMPORTS_END==================
 
 //================OTS_QUIZAPP_ROUTES_START==================
-app.use('/ExamPage',ExamPage)
-app.use('/CoursePage',CoursePage)
-app.use('/TestPage',TestPage)
-app.use('/InstructionPage',InstructionPage)
-app.use('/QuizPage',QuizPage)
-app.use('/TestResultPage',TestResultPage)
+app.use("/ExamPage", ExamPage);
+app.use("/CoursePage", CoursePage);
+app.use("/TestPage", TestPage);
+app.use("/InstructionPage", InstructionPage);
+app.use("/QuizPage", QuizPage);
+app.use("/TestResultPage", TestResultPage);
 //================OTS_QUIZAPP_ROUTES_END===============
 
 //-----------------------------------------------OTS_QUIZ_APP_START--------------------------------------------------------------//
-
-
-
-
-
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);

@@ -1,0 +1,386 @@
+.Egate_landing{
+    width: 80%;
+    margin: 0 auto;
+ }
+ .Egate_logo_with_Link{
+ 
+   padding: 1rem 0;
+ }
+ 
+ 
+ .Publications {
+   align-items: center;
+   appearance: none;
+   background-color: #FCFCFD;
+   border-radius: 4px;
+   border-width: 0;
+   box-shadow: #00aff0 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+   box-sizing: border-box;
+   color: #36395A;
+   cursor: pointer;
+   display: inline-flex;
+   font-family: "JetBrains Mono",monospace;
+   height: 48px;
+   justify-content: center;
+   line-height: 1;
+   list-style: none;
+   overflow: hidden;
+   padding-left: 16px;
+   padding-right: 16px;
+   position: relative;
+   text-align: left;
+   text-decoration: none;
+   transition: box-shadow .15s,transform .15s;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   white-space: nowrap;
+   will-change: box-shadow,transform;
+   font-size: 18px;
+ }
+ 
+ .Publications:focus {
+   box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+ }
+ 
+ .Publications:hover {
+   box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+   transform: translateY(-2px);
+ }
+ 
+ .Publications:active {
+   box-shadow: #D6D6E7 0 3px 7px inset;
+   transform: translateY(2px);
+ }
+ 
+ .Egate_landing_header-e6578i{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 80%;
+   margin: 0 auto;
+ }
+ .Egate_logo_hjurnfh h2 {
+   padding-left: 9rem;
+ }
+ 
+ .Egate_logo_hjurnfh img{
+   max-width: 350px;
+ }
+ .Egate_land_COntainer{
+     max-width: 80%;
+     margin: 0 auto;
+ }
+ 
+ .EGATE_eLanding_Container{
+   /* background: rgb(255, 233, 233); */
+   background: rgb(0 34 44);
+   padding: 3rem 0;
+ }
+ 
+ .EGATE_landingE{
+   display: flex;
+   gap: 4rem;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .Egate_loge_landing img {
+   max-width: 350px;
+   background: #fff;
+   box-shadow: -1px 1px 20px 6px #ffffff;
+ }
+ 
+ .Egate_landiing_ojnkl h2{
+  font-size: 40px;
+   /* padding: 2rem 0; */
+   color: #fff;
+ }
+ 
+ .Egate_landiing_ojnkl p{
+   font-size: 22px;
+   font-weight: 600;
+   line-height: 37px;
+   text-align: end;
+   color: #c5d5dd;
+ }
+ 
+ 
+ .Egate_eLanding_Container{
+   padding: 2rem 0;
+ }
+ .EGATE_eCordsLanding {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   /* gap: 2rem; */
+ }
+ 
+ .Ug_egatePAge {
+   /* background: rgb(255 218 218); */
+   box-shadow: 0px 0px 12px 2px rgb(0 34 44);
+   padding: 2rem;
+ }
+ .EGATE_elandUl h3{
+   background: rgb(0 61 78);
+   text-align: center;
+   color: rgb(255, 255, 255);
+   padding-bottom: 0;
+   word-spacing: 0.5rem;
+   padding: 1.5rem;
+ }
+ .EGATE_elandUl{
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+ }
+ .EGATE_elandUl li a {
+   color: rgb(0, 0, 0);
+   font-weight: bold;
+ }
+ 
+ 
+ 
+ ul.EGATE_elandUl li a {
+   /* background: red; */
+   box-shadow: 0px 0px 5px -3px;
+   text-align: center;
+   display: flex;
+   padding: 15px;
+   font-size: 20px;
+ }
+ /* .Egate_landing::before { 
+     content: "";
+     background-color: yellow;
+     color: red;
+     font-weight: bold;
+     width: 100%;
+     height: 50%;
+     position: absolute;
+   } */
+ 
+   .EgateHeader{
+     background: #97bec7ff;
+   }
+ 
+   .EGATE_elandUl li:hover{
+     background: rgb(235, 242, 244);
+   }
+ 
+ 
+   .Pg_buttonn {
+     align-items: center;
+     background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+     border: 0;
+     border-radius: 10px;
+     box-sizing: border-box;
+     color: #fff;
+     cursor: pointer;
+     display: flex;
+     flex-direction: column;
+     font-family: "Codec cold",sans-serif;
+     font-size: 25px;
+     font-weight: 700;
+     height: 36px;
+     justify-content: center;
+     letter-spacing: .4px;
+     line-height: 1;
+     max-width: 100%;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 3px;
+     text-decoration: none;
+     text-transform: uppercase;
+     user-select: none;
+     -webkit-user-select: none;
+     touch-action: manipulation;
+   }
+   
+   .Pg_buttonn:active {
+     outline: 0;
+   }
+   
+   .Pg_buttonn:hover {
+     outline: 0;
+     background: rgb(42, 113, 132);
+     color: rgb(255, 255, 255);
+   }
+   
+   .Pg_buttonn span {
+     transition: all 200ms;
+   }
+   
+   .Pg_buttonn:hover span {
+     transform: scale(.9);
+     opacity: .75;
+   }
+   
+   @media screen and (max-width: 991px) {
+     .Pg_buttonn {
+       font-size: 15px;
+       height: 50px;
+     }
+   
+     .Pg_buttonn span {
+       line-height: 50px;
+       font-size: 20px;
+     }
+ 
+   }
+ 
+ 
+ .button-89,
+ .Ug_egatePAge-pg,
+ .Ug_egatePAge {
+   --b: 1px;   /* border thickness */
+   --s: .45em; /* size of the corner */
+   --color:  rgb(0 34 44);
+   
+   padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+   color: var(--color);
+   --_p: var(--s);
+   /* background:
+     conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+     var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p)); */
+   transition: .3s linear, color 0s, background-color 0s;
+   outline: var(--b) solid  rgb(0 34 44);
+   outline-offset: -1px;
+   box-shadow: 0px 0px 12px 2px rgb(0 34 44);
+ 
+   font-size: 16px;
+ 
+   border: 0;
+ 
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+ }
+ 
+ .Ug_egatePAge-pg:hover,
+ .button-89:focus-visible{
+   --_p: 0px;
+   outline-color: var(--color);
+   outline-offset: .05em;
+   /* color: red; */
+ }
+ 
+ .Ug_egatePAge-pg:active {
+   background: var(--color);
+   /* color: rgb(0 34 44); */
+ }
+ 
+ @media only screen and (min-width:1023px) and (max-width: 1280px) {
+   .Egate_landing_header-e6578i {
+     width: 72%;
+     margin: 0 auto;
+ }
+ .Egate_logo_hjurnfh img {
+   max-width: 257px;
+ }
+ .Egate_loge_landing img {
+   max-width: 251px;
+ }
+ .Egate_landiing_ojnkl p {
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 35px;
+   text-align: justify;
+   color: #fff;
+ }
+ .EGATE_eCordsLanding {
+ 
+   gap: 1rem;
+ }
+       
+ .Egate_landing {
+   width: 80%;
+   margin: 0 auto;
+ }
+ .EGATE_landingE {
+   gap: 3rem;
+ 
+ }
+   }
+ 
+   @media only screen and (min-width: 600px) and (max-width: 1023px) {
+ 
+     .Egate_logo_hjurnfh img {
+       max-width: 260px;
+   }
+     .EGATE_landingE {
+       display: flex;
+       gap: 4rem;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+   }
+   ul.EGATE_elandUl li a {
+     font-size: 15px;
+   }
+   }
+ 
+   @media only screen and (max-width: 600px) {
+     .Egate_logo_hjurnfh img {
+       max-width: 160px;
+   }
+   ul.EGATE_elandUl li a {
+     font-size: 15px;
+   }
+   .Egate_landiing_ojnkl p {
+     font-size: 12px;
+     font-weight: bold;
+    
+ }
+ .Egate_landiing_ojnkl h2 {
+   font-size: 25px;
+   /* padding: 2rem 0; */
+   color: #fff;
+ }
+ .Egate_logo_with_Link {
+   padding: 0.5rem 0;
+ }
+   .Egate_logo_hjurnfh h2 {
+     padding-left: 2rem;
+     font-size: 8px;
+ }
+     .EGATE_landingE {
+       display: flex;
+       gap: 4rem;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+   }
+   .EGATE_landingE {
+     gap: 2rem;
+ }
+   .EGATE_eCordsLanding {
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     gap: 2rem;
+   }
+     .Publications {
+     
+ 
+ 
+ 
+    
+       height: 48px;
+ 
+       overflow: hidden;    
+       
+       position: relative;
+       text-align: left;
+     
+       font-size: 10px;
+ }
+ 
+ .Egate_landing_header-e6578i {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 99%;
+   margin: 0 auto;
+ 
+   }
+ }
