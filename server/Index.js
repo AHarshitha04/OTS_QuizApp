@@ -27,6 +27,7 @@ app.use("/ExamCreation", ExamCreation);
 
 const CoureseCreation = require("./OTS_Quiz_Admin/CoureseCreation");
 app.use("/CoureseCreation", CoureseCreation);
+const InstructionCreation = require('./OTS_Quiz_Admin/InstructionCreation')
 app.use("/InstructionCreation", InstructionCreation);
 app.use("/TestCreation", TestCreation);
 app.use("/DocumentUpload", DocumentUpload);
