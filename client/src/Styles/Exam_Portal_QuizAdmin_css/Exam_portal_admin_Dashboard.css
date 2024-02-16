@@ -1,0 +1,62 @@
+.Dashboard_container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0 auto;
+    /* height: 99vh; */
+    gap: 1rem;
+    flex-direction: column;
+    overflow-y: scroll  ;
+    
+    
+    
+    padding:2rem;
+  }
+  .Dashboard_container::-webkit-scrollbar{
+      display: none;
+  }
+  .Dashboard_subcontainer {
+    /* width: 80%; */
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+    padding: 0 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Dashboard_contant {
+    /* border: 1px solid; */
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    background: #56738b;
+    color: rgb(255, 255, 255);
+  }
+  
+  .Dashboard_contant i {
+    padding-bottom: 1rem;
+  }
+  
+  .Dashboard_contant:nth-child(1) i {
+    color: #ffffff;
+    font-size: 40px;
+  }
+  
+  .Dashboard_contant:nth-child(2) i {
+    color: #ffffff;
+    font-size: 40px;
+  }
+  
+  .Dashboard_contant:nth-child(3) i {
+    color: #ffffff;
+    font-size: 40px;
+  }
+  .Dashboard_contant:nth-child(4) i {
+    color: #ffffff;
+    font-size: 40px;
+  }
+  
