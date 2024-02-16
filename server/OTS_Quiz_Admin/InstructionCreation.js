@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const db = require('../DataBases/db2');
+const db = require('../DataBase/db2');
 const multer = require('multer');
 const mammoth = require('mammoth');
 const cheerio = require('cheerio');
