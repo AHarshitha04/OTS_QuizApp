@@ -1,40 +1,73 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const cors = require('cors');
+const express = require("express");
+const bodyParser = require("body-parser");
+const cors = require("cors");
 const app = express();
 const port = 5001;
-app.use(express.static("public"));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(cors());
-const path = require('path');
-const imagesDirectory = path.join(__dirname, 'uploads');
-app.use('/uploads', express.static(imagesDirectory));
-const db = require('./DataBase/db2');
+const path = require("path");
+const imagesDirectory = path.join(__dirname, "uploads");
+const db = require("./DataBase/db2");
 const http = require("http");
 const socketIO = require("socket.io");
 const server = http.createServer(app);
 const io = socketIO(server);
 
+app.use(express.static("public"));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use("/uploads", express.static(imagesDirectory));
+app.use(cors());
+
 //_______________________________________________________________________OTS_QUIZ_ADMIN_______________________________________________________
 
-const Dashboard = require('./OTS_Quiz_Admin/Dashbord')
-app.use('/Dashboard', Dashboard)
+const Dashboard = require("./OTS_Quiz_Admin/Dashbord");
+app.use("/Dashboard", Dashboard);
 
-const ExamCreation = require('./OTS_Quiz_Admin/ExamCreation')
-app.use('/ExamCreation', ExamCreation)
+const ExamCreation = require("./OTS_Quiz_Admin/ExamCreation");
+app.use("/ExamCreation", ExamCreation);
 
-const CoureseCreation=require("./OTS_Quiz_Admin/CoureseCreation")
-app.use('/CoureseCreation',CoureseCreation)
-app.use('/InstructionCreation',InstructionCreation)
-app.use('/TestCreation',TestCreation)
-app.use('/DocumentUpload',DocumentUpload)
-app.use('/ImageUpload',ImeageUpload)
-
-
+const CoureseCreation = require("./OTS_Quiz_Admin/CoureseCreation");
+app.use("/CoureseCreation", CoureseCreation);
+app.use("/InstructionCreation", InstructionCreation);
+app.use("/TestCreation", TestCreation);
+app.use("/DocumentUpload", DocumentUpload);
+app.use("/ImageUpload", ImeageUpload);
 
 //_______________________________END__________________________________
 
+
+
+
+
+
+
+
+//-----------------------------------------------OTS_QUIZ_APP_START--------------------------------------------------------------//
+
+//================OTS_QUIZAPP_IMPORTS_START=================
+const ExamPage =require('./OTS_QuizApp/ExamPage')
+const CoursePage = require('./OTS_QuizApp/CoursePage')
+const TestPage =require('./OTS_QuizApp/TestPage')
+const InstructionPage = require('./OTS_QuizApp/InstructionPage')
+const QuizPage =require('./OTS_QuizApp/QuizPage')
+const TestResultPage = require('./OTS_QuizApp/TestResultPage')
+//================OTS_QUIZAPP_IMPORTS_END==================
+
+//================OTS_QUIZAPP_ROUTES_START==================
+app.use('/ExamPage',ExamPage)
+app.use('/CoursePage',CoursePage)
+app.use('/TestPage',TestPage)
+app.use('/InstructionPage',InstructionPage)
+app.use('/QuizPage',QuizPage)
+app.use('/TestResultPage',TestResultPage)
+//================OTS_QUIZAPP_ROUTES_END===============
+
+//-----------------------------------------------OTS_QUIZ_APP_START--------------------------------------------------------------//
+
+
+
+
+
+
 app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
-  });
+  console.log(`Server is running on port ${port}`);
+});
