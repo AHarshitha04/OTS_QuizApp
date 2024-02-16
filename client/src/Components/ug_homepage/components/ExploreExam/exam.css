@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+
+#exam {
+    text-align: center;
+    width: 100%;
+    /* background: #ffffff21; */
+    background: #e2f7fb;
+
+    /* border-radius: 0 30%   30% 0; */
+    padding: 20px 0;
+
+    /* background: #000; */
+}
+
+#exam h2 {
+    font-size: 2rem;
+    margin: 2rem auto;
+    color: #00a3ff;
+}
+
+.exam_sub_container {
+    /* padding: 1.58rem 0; */
+
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 600px)); */
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.exam_box_left {
+    width: 500px;
+}
+
+.exam_box_left img {
+    width: 100%;
+}
+
+.exam_box_right {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 2rem;
+    gap: 1.8rem;
+}
+
+.exam_boxs {
+    display: flex;
+    padding: 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    background: #279eff69;
+    background: #fff;
+    /* border: 1px solid rgb(0, 0, 0); */
+    border-radius: 13px;
+    flex-direction: column;
+    gap: 0.8rem;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.exam_boxs:hover {
+    transform: scale(1.09);
+    transition: 0.3s ease-in-out;
+}
+
+.exams_buttons {
+    padding: 0.3rem 0.5rem;
+    background: #000;
+    font-family: 'Noto Sans Display', sans-serif;
+    border-radius: 13px;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    /* font-weight: 700; */
+
+
+}
+
+.exams_buttons_normal {
+    /* border-bottom: 2px solid red; */
+    font-size: 0.9rem;
+    color: blue;
+}
+
+.exams_buttons_normal:hover {
+    color: blue;
+
+    text-decoration: underline;
+}
+
+@media (min-width:700px) and (max-width: 980px) {
+    .exam_box_right {
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 1rem;
+    }
+
+    .exams_buttons {
+        font-size: 0.6rem;
+    }
+}
+
+@media (min-width:570px) and (max-width: 980px) {
+    .exam_box_right {
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 1rem;
+    }
+
+    .exams_buttons {
+        font-size: 0.6rem;
+    }
+}
+
+@media (min-width:300px) and (max-width: 570px) {
+    .exam_box_right {
+        grid-template-columns: 1fr;
+        font-size: 1rem;
+    }
+}

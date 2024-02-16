@@ -1,0 +1,141 @@
+
+
+.UG_faqdiv{
+
+    background-color: #279eff21;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.ug_faq_container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.UG_accordion2 {
+    display: grid;
+      grid-template-columns: repeat(2 ,1fr);
+}
+.uG_wrapper-2 {
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: center;
+}
+.uG_wrapper-2 h3 {
+        margin: 2.5rem auto;
+        font-size: 100 2rem #fff;
+        color: #fff;
+    }
+
+    .item1 {
+          
+            margin-bottom: 5px;
+            padding: 10px 20px;
+            width: 35vmax;
+        }
+            .title {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: rgb(0, 0, 0);
+                cursor: pointer;
+            }
+
+            .content {
+                max-height: 0;
+                overflow: hidden;
+                transition: all 0.8s ease-in-out;
+                color: #000000;
+            }
+
+            .content-show {
+                height: auto;
+                color: #000000;
+                max-height: 999999;
+                transition: all 5s;
+            }
+
+   
+/* .wrapper-3 {
+    display: flex;
+    flex-direction: column;
+ 
+    justify-content: center;
+    align-items: center;
+
+ 
+} */
+
+        .ug_item2 {
+         
+            margin-bottom: 5px;
+            padding: 10px 20px;
+            /* width: 35vmax; */
+        }
+            .ug_faqtitle {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: rgb(0, 0, 0);
+                background: #fff;
+                padding: 18px;
+                
+            }
+             .ug_faqtitle{
+                cursor: pointer;
+            }
+                h2{
+                   font-size:1rem ; 
+                }
+         
+
+            .ug_content2 {
+                max-height: 0;
+                overflow: hidden;
+                transition: all 0.8s ease-in-out;
+                color: rgb(255, 255, 255);
+            }
+
+            .ug_content-show2 {
+                height: auto;
+                color: rgb(255, 255, 255);
+                transition: all 1s;
+                background: #000;
+                padding: 10px 10px;
+                margin-top: 10px;
+            
+            }
+
+            .ug_faqtitle{
+                background-color: #000000;
+                color: #fff;
+            }
+
+            /* @media only screen and (min-width:992px) and (max-width: 1023px) {}
+            @media only screen and (min-width: 767px) and (max-width: 991px) {}
+            @media only screen and (max-width: 768px) {} */
+    /* ==================== TABLET RESPONSIVE ================ */
+    @media only screen and (min-width: 767px) and (max-width: 991px) {
+       
+        .UG_accordion2 {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+      
+
+
+    @media only screen and (max-width: 768px) {
+        .UG_accordion2 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .ug_faq_container{
+            width: 95%;
+        }
+  
+    }
